@@ -1,0 +1,13 @@
+overwrite: true
+schema: "https://back.prod.checklist.baza.vk-apps.com/gql"
+documents: "src/**/*.graphql"
+generates:
+  src/graphql.tsx:
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-react-apollo"
+  ./graphql.schema.json:
+    plugins:
+      - "introspection"
+

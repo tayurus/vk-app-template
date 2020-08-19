@@ -1,0 +1,9 @@
+@import "src/variables";
+
+.app {
+  max-width: 800px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+}

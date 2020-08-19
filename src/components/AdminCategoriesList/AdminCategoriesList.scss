@@ -1,0 +1,45 @@
+.admin-categories-list {
+  max-width: 550px;
+  border: 1px solid #dce1e6;
+  border-radius: 4px;
+  background: #fff;
+
+  &__title {
+    background: #fafbfc;
+    border-radius: 4px 4px 0 0;
+    line-height: 19px;
+    letter-spacing: -0.32px;
+    padding: 18px 24px;
+    border-bottom: 1px solid #e7e8ec;
+  }
+
+  &__categories-list {
+    border-top: 1px solid #e7e8ec;
+    padding: 0 24px;
+  }
+
+  &__categories-item {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    &:hover {
+      background: #f7f8fa;
+    }
+  }
+
+  &__categories-item-icon {
+    margin-right: 14px;
+  }
+
+  &__categories-item-title {
+    letter-spacing: -0.078px;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  &__categories-item-arrow {
+    margin-left: auto;
+    color: #ccc;
+  }
+}
